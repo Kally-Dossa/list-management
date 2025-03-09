@@ -1,0 +1,40 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f2f7;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.monitor-title {
+  padding-bottom: 15px;
+  color: #1c2469;
+}
+
+.card {
+  max-width: 750px;
+  min-height: 250px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.nav-tabs .nav-link {
+  color: #a0a0a0;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #6c757d;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: white;
+  color: #1c2469 !important;
+  font-weight: bold;
+}

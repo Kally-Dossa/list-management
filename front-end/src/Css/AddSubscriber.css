@@ -1,0 +1,93 @@
+.add-subscriber-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  transition: margin-left 0.3s ease-in-out;
+  flex-direction: column;
+}
+
+.sidebar.open ~ .add-subscriber-wrapper,
+.sidebar.closed ~ .add-subscriber-wrapper {
+  margin-left: 0;
+}
+
+.add-subscriber {
+  width: 80%;
+  max-width: 600px;
+  background: white;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.add-subscriber-header {
+  background: #f6f7f9;
+  color: #1c2469;
+  font-size: 22px;
+  font-weight: bold;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ddd;
+}
+
+.add-subscriber form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+}
+
+.add-subscriber input {
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  text-align: left;
+  outline: none;
+}
+
+.add-btn {
+  background: #1c2469 !important;
+  color: white !important;
+  font-size: 18px;
+  padding: 15px;
+  width: 90%;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.add-btn:hover {
+  background: #2d377e !important;
+}
+
+body {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .add-subscriber-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .add-subscriber-wrapper {
+    min-height: auto;
+    padding: 20px;
+    padding-left: 15%;
+    padding-right: 2%;
+  }
+
+  .add-subscriber {
+    width: 90%;
+  }
+}
