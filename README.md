@@ -31,8 +31,8 @@ npm start
 
 Runs on http://localhost:3001
 
-**API Overview
-**The exact endpoints may differ based on your implementation. Below is the minimal REST design based on your server.js:
+**API Overview**
+The exact endpoints may differ based on your implementation. Below is the minimal REST design based on your server.js:
 
 - GET /subscribers – list all subscribers (with pagination)
 - POST /subscribers – add a new subscriber
