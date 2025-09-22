@@ -12,7 +12,9 @@ cd list-management
 
 **Back end**
 cd back-end
+
 npm install
+
 node server.js
 
 Runs on http://localhost:5000
@@ -20,7 +22,9 @@ Runs on http://localhost:5000
 **Front end**
 Open a new terminal:
 cd front-end
+
 npm install
+
 npm start
 
 Runs on http://localhost:3001
