@@ -22,6 +22,7 @@ Runs on http://localhost:5000
 
 **Front end**
 Open a new terminal:
+
 cd front-end
 
 npm install
