@@ -1,10 +1,32 @@
-WEB-APP START UP
+List Management
 
-The project is structured into two main directories:
+A simple full-stack list manager with a React front end and a Node.js/Express back end. The app demonstrates a basic client–server architecture where the UI communicates with the API over HTTP (REST). 
+The default setup runs the front end on http://localhost:3001 and the back end on http://localhost:5000
 
-- front-end
-- back-end
-  
-The front-end is built with React and runs on port 3001. To set up the front-end, navigate to the front-end folder, install the necessarydependencies using npm install command, and start thedevelopment server with npm start command.
-The back-end is developed using Node.js and Express, operating on port 5000. For the back-end, move to the back-end directory, install dependencies by running npm install command, and start the server using node server.js command. Ensure that Node.jsand npm are installed on your system before running theapplication.
-The front-end communicates with the back-end through a RESTful API, enabling seamless data management.
+**Getting Started**
+**How to download**
+git clone https://github.com/Kally-Dossa/list-management.git
+cd list-management
+
+**How to run**
+**Back end**
+cd back-end
+npm install
+node server.js
+
+Runs on http://localhost:5000
+
+**Front end**
+Open a new terminal:
+cd front-end
+npm install
+npm start
+
+Runs on http://localhost:3001
+
+**API Overview**
+The exact endpoints may differ based on your implementation. Below is a suggested, minimal REST design you can align with your server.js:
+- GET /api/items – list all items
+- POST /api/items – create a new item
+- PUT /api/items/:id – update an item
+- DELETE /api/items/:id – delete an item
