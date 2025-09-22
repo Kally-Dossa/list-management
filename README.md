@@ -31,9 +31,9 @@ npm start
 
 Runs on http://localhost:3001
 
-**API Overview**
-The exact endpoints may differ based on your implementation. Below is a suggested, minimal REST design you can align with your server.js:
-- GET /api/items – list all items
-- POST /api/items – create a new item
-- PUT /api/items/:id – update an item
-- DELETE /api/items/:id – delete an item
+**API Overview
+**The exact endpoints may differ based on your implementation. Below is the minimal REST design based on your server.js:
+
+- GET /subscribers – list all subscribers (with pagination)
+- POST /subscribers – add a new subscriber
+- DELETE /subscribers/:email – remove (unsubscribe) a subscriber
