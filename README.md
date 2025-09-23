@@ -12,11 +12,11 @@ cd list-management
 
 **Back end**
 
-cd back-end
+`cd back-end
 
 npm install
 
-node server.js
+node server.js`
 
 Runs on http://localhost:5000
 
