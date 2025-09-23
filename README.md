@@ -10,27 +10,26 @@ The default setup runs the front end on http://localhost:3001 and the back end o
 
 **How to run**
 
-**Back end**
+**Back end** Runs on http://localhost:5000
 
-**`cd back-end`**
 
-**`npm install`**
+- **`cd back-end`**
 
-**`node server.js`**
+- **`npm install`**
 
-Runs on http://localhost:5000
+- **`node server.js`**
 
-**Front end**
+
+**Front end** Runs on http://localhost:3001
 
 Open a new terminal:
 
-**`cd front-end`**
+- **`cd front-end`**
 
-**`npm install`**
+- **`npm install`**
 
-**`npm start`**
+- **`npm start`**
 
-Runs on http://localhost:3001
 
 ## API Overview
 - `GET /subscribers` – list all subscribers (with pagination)
