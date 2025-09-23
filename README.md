@@ -1,9 +1,9 @@
-**List Management**
+#List Management
 
 A simple full-stack list manager with a React front end and a Node.js/Express back end. The app demonstrates a basic client–server architecture where the UI communicates with the API over HTTP (REST). 
 The default setup runs the front end on http://localhost:3001 and the back end on http://localhost:5000
 
-**Getting Started**
+##Getting Started
 **How to download**
 git clone https://github.com/Kally-Dossa/list-management.git
 cd list-management
@@ -12,28 +12,28 @@ cd list-management
 
 **Back end**
 
-`cd back-end
+**`cd back-end`**
 
-npm install
+**`npm install`**
 
-node server.js`
+**`node server.js`**
 
 Runs on http://localhost:5000
 
 **Front end**
- Open a new terminal:
+Open a new terminal:
 
-cd front-end
+**`cd front-end`**
 
-npm install
+**`npm install`**
 
-npm start
+**`npm start`**
 
 Runs on http://localhost:3001
 
 **API Overview**
 The exact endpoints may differ based on your implementation. Below is the minimal REST design based on your server.js:
 
-- GET /subscribers – list all subscribers (with pagination)
-- POST /subscribers – add a new subscriber
-- DELETE /subscribers/:email – remove (unsubscribe) a subscriber
+- `GET /subscribers` – list all subscribers (with pagination)
+- `POST /subscribers` – add a new subscriber
+- `DELETE /subscribers/:email` – remove (unsubscribe) a subscriber
