@@ -8,7 +8,7 @@ The default setup runs the front end on http://localhost:3001 and the back end o
 **`git clone`**  https://github.com/Kally-Dossa/list-management.git
 **`cd list-management`**
 
-**How to run**
+## How to run
 
 **Back end** Runs on http://localhost:5000
 
