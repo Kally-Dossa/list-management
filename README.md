@@ -14,23 +14,20 @@ cd list-management
 
 **Back end** Runs on http://localhost:5000
 
-
-- **`cd back-end`**
-
-- **`npm install`**
-
-- **`node server.js`**
-
+```bash
+cd back-end
+npm install
+node server.js
+```
 
 **Front end** Runs on http://localhost:3001
 
 Open a new terminal:
-
-- **`cd front-end`**
-
-- **`npm install`**
-
-- **`npm start`**
+```bash
+cd front-end
+npm install
+npm start
+```
 
 
 ## API Overview
