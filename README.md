@@ -5,8 +5,10 @@ The default setup runs the front end on http://localhost:3001 and the back end o
 
 ## Getting Started
 **How to download**
-**`git clone`**  https://github.com/Kally-Dossa/list-management.git
-**`cd list-management`**
+```bash
+git clone  https://github.com/Kally-Dossa/list-management.git
+cd list-management
+```
 
 ## How to run
 
